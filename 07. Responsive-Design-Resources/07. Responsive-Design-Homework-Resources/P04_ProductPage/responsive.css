@@ -1,0 +1,102 @@
+@media screen and (max-width: 640px){
+    html{
+        max-width: 640px;
+    }
+    .wrap {
+        max-width: 640px;
+        width: 100%;
+
+    }
+    #header-bottom-area{
+        display: none;
+    }
+    #product-menu {
+        display: block;
+        position: relative;
+        float: none;
+    }
+    #product-menu:hover .submenu{
+        display: block;
+    }
+    #header-top-area{
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        text-align: center
+    }
+    #header-top-area h1 {
+        text-indent: -9999px;
+        background: url(images/sprite.png) no-repeat 0;
+        background-size: cover;
+        width: 62%;
+        height: 45px;
+        display: inline-block;
+        float: left;
+    }
+    main{
+        max-width: 640px;
+        width: 100%;
+        text-align: center;
+    }
+    footer{
+        max-width: 640px;
+        width: 100%;
+        text-align: center;
+        height: 100%;
+    }
+    .share {
+        float: none;
+        padding: 0px;
+        text-align: center;
+        position: relative;
+    }
+    .email-newsletter {
+        float: none;
+        text-align: center;
+        padding: 0px;
+    }
+    .copyright{
+        text-align: center;
+        float: none;
+        padding: 0px;
+    }
+    footer a{
+        color: #FFFFFF;
+    }
+    strong{
+        display: flex;
+        font-weight: bold;
+        color: #FFFFFF;
+        position: absolute;
+        top: 14px;
+        left: -6px;
+    }
+    #header-top-area{
+        padding: 0px;
+    }
+    #header-middle-area {
+
+        border-bottom: 1px solid #b5b9ba;
+    }
+    /*h1 {*/
+        /*text-indent: -9999px;*/
+        /*background-size: cover;*/
+        /*background: url(images/sprite.png) no-repeat 0;*/
+        /*width: 50%;*/
+        /*height: 45px;*/
+        /*display: inline-block;*/
+        /*float: left;*/
+    /*}*/
+    /*#header-top-area {*/
+        /*padding: 1.5rem;*/
+        /*box-sizing: padding-box;*/
+        /*display: flex;*/
+    /*}*/
+
+    /*#product-menu ul li .submenu{*/
+        /*display: block;*/
+    /*}*/
+    /*#product-menu ul li .submenu:hover{*/
+        /*display: block;*/
+    /*}*/
+}

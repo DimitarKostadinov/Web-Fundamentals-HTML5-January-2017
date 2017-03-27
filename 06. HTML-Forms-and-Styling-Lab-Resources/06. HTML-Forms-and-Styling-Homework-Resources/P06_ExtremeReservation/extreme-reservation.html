@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extreme Sports</title>
+    <link rel="stylesheet" href="extreme-reservation.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li class="paragliding"><a href="#">Paragliding</a></li>
+        <li class="skydiving"><a href="#">Skydiving</a></li>
+        <li class="climbing"><a href="#">Climbing</a></li>
+        <li class="about"><a href="#">About Us</a></li>
+    </ul>
+</nav>
+
+<form>
+    <fieldset class="personal-info">
+        <legend>Personal Info</legend>
+        <input type="text" placeholder="Enter your full name" class="name">
+        <input type="email" placeholder="Enter a valid e-mail" class="email">
+        <input type="text" placeholder="Enter a phone number" class="phone-number">
+    </fieldset>
+
+    <fieldset class="flight-info">
+        <legend>Flight Info</legend>
+
+        <p>Are you flying for the first time?</p>
+
+        <label for="r1">
+            <input type="radio" id="r1" name="first-flight"> Yes
+        </label>
+
+        <label for="r2">
+            <input type="radio" id="r2" name="first-flight"> No
+        </label>
+
+        <label class="destination"> Choose Destination
+            <select>
+                <optgroup label="Bulgaria">
+                    <option value="1">Dobrostan</option>
+                    <option value="2">Sopot</option>
+                    <option value="3">Sofia</option>
+                    <option value="4">Bourgas</option>
+                </optgroup>
+
+                <optgroup label="Rest of the World">
+                    <option value="5">Nepal</option>
+                    <option value="6">Turkey</option>
+                    <option value="7">France</option>
+                </optgroup>
+            </select>
+        </label>
+
+        <label class="date">
+            Choose Date
+            <input type="date">
+        </label>
+    </fieldset>
+
+    <div class="submit">
+
+        <input type="reset" value="Clear" class="clear">
+        <input type="submit" value="Send" class="send">
+    </div>
+
+</form>
+
+</body>
+</html>

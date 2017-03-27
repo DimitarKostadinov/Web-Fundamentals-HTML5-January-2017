@@ -1,0 +1,193 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+*{box-sizing: border-box}
+html{
+    background: gray;
+}
+body{
+    width: 800px;
+    background: whitesmoke;
+    margin: 0 auto;
+}
+header h1{
+    text-align: center;
+    font-family:Tahoma, Helvetica, sans-serif;
+    font-size: 24px;
+}
+header p{
+    text-align: center;
+    margin: 0 30px;
+    padding: 5px;
+    border-bottom: 1px solid gainsboro;
+}
+main{
+    display: inline-block;
+    height: 400px;
+}
+section.account{
+    width: 200px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.account input{
+    margin-bottom: 10px;
+}
+section.login{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-left: 200px;
+}
+.left{
+    height: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+}
+.right{
+
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.login input, a{
+    margin-bottom: 10px;}
+.login a{
+    display: block;
+}
+h3{
+    font-family:Tahoma, Helvetica, sans-serif;
+    font-size: 20px;
+}
+input{
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    padding: 5px;
+    padding: 10px 0px;
+    width: 250px;
+}
+input [type="checkbox"]{
+    width: 300px;
+}
+label{
+    width: 250px;
+    display: block;
+
+}
+.check{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 254px;
+    left: -6px;
+}
+ button{
+     color: #333333;
+     cursor: pointer;
+
+     font-size: 16px;
+     font-weight: bold;
+    margin-top: 20px;
+    width: 185px;
+    padding: 13px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 20px grey;
+}
+ button:hover{
+     background: lime;
+ }
+input::-webkit-input-placeholder {
+    padding-left: 10px;
+}
+.green1:before {
+    font-family: FontAwesome,serif;
+    position: absolute;
+    font-size: 18px;
+    top: 68px;
+    z-index: 1000;
+    left: 210px;
+    content: "\f00c";
+    width: 20px;
+    background: greenyellow;
+    padding: 5px;
+    text-align: center;
+}
+.green2:before {
+    font-family: FontAwesome,serif;
+    position: absolute;
+    font-size: 18px;
+    top: 116px;
+    z-index: 1000;
+    left: 210px;
+    content: "\f00c";
+    width: 20px;
+    background: greenyellow;
+    padding: 5px;
+    text-align: center;
+}
+.red1:before {
+    font-family: FontAwesome,serif;
+    position: absolute;
+    font-size: 18px;
+    top: 163px;
+    z-index: 1000;
+    left: 210px;
+    content: "\f00d";
+    width: 20px;
+    background: red;
+    padding: 5px;
+    text-align: center;
+}
+.red2:before {
+    font-family: FontAwesome,serif;
+    position: absolute;
+    font-size: 18px;
+    top: 210px;
+    z-index: 1000;
+    left: 210px;
+    content: "\f00d";
+    width: 20px;
+    background: red;
+    padding: 5px;
+    text-align: center;
+}
+label.text{
+    margin-left: 25px;
+}
+.login{
+    position: relative;
+}
+.red11:before{
+    font-family: FontAwesome,serif;
+    position: absolute;
+    font-size: 18px;
+    top: 115px;
+    z-index: 1000;
+    left: 210px;
+    content: "\f00d";
+    width: 20px;
+    background: red;
+    padding: 5px;
+    text-align: center;
+}
+a{
+    color: red;
+}
+.login button{
+    color: #333333;
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 155px;
+    padding: 13px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 20px grey;
+}

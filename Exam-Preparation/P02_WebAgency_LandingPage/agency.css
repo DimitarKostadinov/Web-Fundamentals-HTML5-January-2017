@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Kreon:400,700|Open+Sans:400,700');
+*{box-sizing: border-box}
+
+body{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section.first{
+    background: url("Resourses/img/header-background.jpg") ;
+    background-size: cover;
+}
+.logo{
+    font-family: 'Kreon', serif;
+    font-size: 32px;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+}
+nav ul{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+nav li{
+    display: inline-block;
+    margin-right: 90px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+nav li a:hover{
+    padding: 10px 20px;
+    background: red;
+    border-radius: 10px;
+}
+.moto{
+    margin-left: 25px;
+    margin-top: 250px;
+    padding-bottom: 100px;
+    letter-spacing: 2px;
+}
+.moto p{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.bold-moto p{
+    font-family: 'Kreon', serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+    margin-left: 0px;
+    text-transform: none;
+}
+section.two{
+    display: flex;
+
+
+
+}
+article.first {
+    /*display: inline-block;*/
+    background: red;
+
+}
+article.first img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+article.second img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+article.second{
+    background: deepskyblue;
+    /*display: inline-block;*/
+
+}
+section.two article{
+    padding-top: 20px;
+    width: 50%;
+    padding-bottom: 35px;
+}
+section.two h3{
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.text{
+    color: white;
+    width: 72%;
+}
+section.three{
+    padding-bottom: 50px
+}
+section.three header h1{
+    font-size: 35px;
+    font-family: 'Kreon', serif;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+section.three  h3{
+font-size: 16px;
+margin-left: 20px;
+width: 60%;
+color: darkgrey;
+font-weight: lighter;
+}
+section.three article{
+    display: inline-block;
+}
+section.three article p{
+    width: 85%;
+}
+section.three article.one{
+     width: 30%;
+    margin-left: 31px;
+    margin-right: 20px;
+    border-right: 2px solid grey;
+
+ }
+section.three article.two{
+    width: 31%;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-right: 2px solid grey;
+}
+section.three article.three{
+    width: 30%;
+    margin-left: 20px;
+}
+section.four{
+    background: red;
+    position: relative;
+    padding-bottom: 30px;
+}
+.four h3{
+    padding-top: 50px;
+    margin-left: 70px;
+    font-size: 40px;
+    font-family: 'Kreon', serif;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.four button{
+    padding: 14px 21px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: red;
+    text-transform: uppercase;
+    background: white;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+}
+button:hover{
+    color: rgba(87, 91, 91, 0.92);
+    cursor: pointer;
+}
+footer{
+    padding-top: 20px;
+    text-align: center;
+    color: gray;
+
+}

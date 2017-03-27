@@ -1,0 +1,51 @@
+body{
+    width: 610px;
+    margin: 0 auto;
+
+}
+section{
+    display: inline-block;
+    width: 610px;
+    position: relative;
+    top: 60px;
+}
+article{
+    width: 280px;
+    margin-bottom: 20px;
+    margin-right: 12px;
+    display: inline-block;
+    border: 2px solid #BBBFC3;
+    vertical-align: top;
+    padding-left: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-family: Verdana;
+    font-size: 13px;
+    text-align: left;
+    margin-top: 0px;
+}
+h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+p.date{
+    font-family: Arial;
+    font-size: 10px;
+    color:#A192B0;
+    margin-top: -12px;
+}
+p{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 13px;
+}
+img{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-bottom: 0px;
+}

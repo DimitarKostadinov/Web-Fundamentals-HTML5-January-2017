@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('images/background.jpg');
+    background-size: cover;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 20px;
+}
+
+nav, form {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    margin-top: 40px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 55px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: #276AA1;
+    font-weight: bold;
+}
+li:hover{
+    background: rgba(100, 149, 237, 0.34);
+    border-radius: 10px;
+}
+
+.paragliding {
+    background: url('images/paraglider-icon.png') no-repeat;
+
+}
+
+.climbing {
+    background: url('images/climbing.png') no-repeat;
+}
+
+.skydiving {
+    background: url('images/sky-diver.png') no-repeat;
+}
+
+.about {
+    background: url('images/about-us.png') no-repeat;
+}
+
+fieldset {
+    border: 2px solid #276AA1;
+    display: inline-block;
+    vertical-align: top;
+    color: #276AA1;
+    border-radius: 15px;
+    padding-top: 30px;
+    text-align: center;
+    height: 350px;
+}
+
+fieldset input {
+    display: block;
+    width: 300px;
+    border-radius: 25px;
+    border: 1px solid #276AA1;
+    padding: 10px 35px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.email {
+    background: url("images/email.png") no-repeat 10px 5px rgba(181, 203, 217, 0.4);
+}
+
+.name {
+    background: url("images/user1.png") no-repeat 10px 5px rgba(181, 203, 217, 0.4);
+}
+
+.phone-number {
+    background: url("images/phone.png") no-repeat 10px 5px rgba(181, 203, 217, 0.4);
+}
+
+::-webkit-input-placeholder{
+    color: #276AA1;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+::-moz-placeholder {
+    color: #276AA1;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+fieldset legend {
+    text-align: center;
+}
+
+#r1, #r2 {
+    display: inline-block;
+    width: 30px;
+}
+
+select, .destination {
+    display: block;
+}
+
+.destination {
+    margin-top: 30px;
+}
+
+select {
+    background-color: rgba(190, 224, 233, 0.4);
+    width: 300px;
+    border-radius: 25px;
+    border: 1px solid #276AA1;
+    padding: 10px 35px;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+select option, optgroup {
+    color: #276AA1;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+optgroup {
+    font-weight: bold;
+}
+
+.date input {
+    background-color: rgba(190, 224, 233, 0.4);
+}
+
+.submit {
+    display: block;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+
+.clear, .send {
+    display: inline-block;
+}
+
+.clear {
+    color: #D7120A;
+    border: 1px solid #D7120A;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background: none;
+    font-weight: bold;
+}
+
+.send {
+    color: #2BE230;
+    border: 1px solid #2BE230;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background: none;
+    font-weight: bold;
+}
+select, .date {
+    color: #256B9F;
+}

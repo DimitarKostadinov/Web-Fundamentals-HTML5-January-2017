@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+body>header{
+    background: url("images/Layer-759_02.jpg") no-repeat;
+    background-size: cover;
+    height: 735px;
+    padding-top: 20px;
+}
+body>header>nav, ul{
+    height: 60px;
+    list-style: none;
+}
+nav{
+    background: rgba(199, 157, 99, .75);
+    width: 1100px;
+    margin: 0 auto;
+}
+nav ul{
+    background: rgba(199,157,99,0.75);
+    display: flex;
+    justify-content: center;
+}
+.nav-item,.nav-item-home{
+    margin: 0 70px 0 auto;
+    line-height: 60px;
+}
+li.nav-item a{
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 14px;
+}
+.nav-item-home{
+    margin-left: 30px;
+}
+.nav-item-home a{
+    color: white;
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.consulting-slider{
+    width: 500px;
+    margin: 0 auto;
+}
+.consulting-slider h1{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.consulting-slider p{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 300;
+}
+.consulting-slider a{
+    display: block;
+    width: 120px;
+    height: 25px;
+    background: #090821;
+    padding: 10px;
+    margin: 20px auto;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 25px;
+}
+.consulting-slider a i{
+    color: orange;
+}
+.consulting-slider a:hover,.consulting-slider a:hover .fa-chevron-right {
+    background: #c79d63;
+    color: #090821;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+}
+section{
+    text-align: center;
+    margin-top: 50px;
+
+}
+article{
+    width: 25%;
+    display: inline-block;
+    margin-left: 18px;
+}
+main > header h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.icon {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background: #090821;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+main p,h2{
+    text-align: left;
+}
+main p {
+    font-size: 16px;
+    margin: 10px 0 0;
+    text-transform: none;
+    color: #000;
+}
+h5{
+    text-align: center;
+    font-size: 2em;
+    width: 520px;
+    margin: 0 auto;
+}
+.banner span{
+    color: #c79d63;
+}
+.banner{
+    margin-bottom: 0;
+    padding-top: 35px;
+    padding-bottom: 46px;
+    margin-top: 40px;
+    display: block;
+    position: relative;
+}
+.banner:after{
+    content: '';
+    background: url(images/steel-bg.jpg) ;
+    background-size: cover;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+.traders{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)),
+    url('images/background-choose-us.jpg') no-repeat center;
+    background-size: cover;
+    margin: 0px;
+    padding-top: 35px;
+    padding-bottom: 46px;
+}
+.traders h2{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+.article-container{
+    display: flex;
+    justify-content: center;
+}
+.article-container a{
+    margin-right: 30px;
+    padding: 20px;
+    width: 300px;
+    border: 2px solid #c79d63;
+    text-align: center;
+    text-decoration: none;
+}
+.article-container h4{
+    color: white;
+    margin: 0 0 17px 17px;
+    font-size: 1.5em;
+    letter-spacing: 0;
+}
+.article-container p{
+margin: 0 0 17px 17px;
+font-size: 1em;
+line-height: 18px;
+color: white;
+}
+.article-container a:hover,
+.article-container a:hover p,
+.article-container a:hover h4 {
+    background: #ffffff;
+    color: #090821;
+}
+.consulting-woman{
+    background-image: url("images/consulting-woman.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin: 0;
+    position: relative;
+}
+.testimonial-info{
+    position: absolute;
+    top:70px;
+    right: 40px;
+    width: 500px;
+    padding: 64px 60px 53px 60px;
+    background: rgba(255, 255, 255, .7)
+}
+.testimonial-info > p::before{
+    content: open-quote;
+    color: #c79d63;
+    font-size: 2em;
+}
+.testimonial-info > p::after{
+    content: close-quote;
+    color: #c79d63;
+    font-size: 2em;
+}
+.testimonial-info footer{
+    margin-top: 20px;
+    text-align: left;
+}
+.testimonial-info footer h4 {
+    font-size: 2em;
+    color: white;
+}
+.testimonial-info footer p{
+    padding: 0;
+    margin-bottom: 0px;
+    font-size: 1em;
+    color: #777777;
+}
+.testimonial-info footer
+{
+    height: 280px;
+    background: rgb(9,8,33);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.partners{
+    height: 90px;
+    margin-top: 45px;
+}
+.partners ul{
+    display: flex;
+    justify-content: center;
+}
+.partners img{
+    width: 135px;
+    height: 60px;
+}
+footer{
+
+}
+footer h2{
+    color: white;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.info li{
+    color: white;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.info li i{
+    font-size: 16px;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    width: 153px;
+}
+.socials li{
+    width: 200px;
+}
+.socials a{
+    display: block;
+    width: 32px;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    background: rgb(131,131,143);
+    color: #090821;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    background: rgb(9,8,33);
+
+
+}
+.extra-links ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 200px;
+    height: 148px;
+}
+.extra-links ul li{
+    display: block;
+    padding: 5px;
+}
+.extra-links ul li a {
+    color: #c79d63;
+    text-decoration: none;
+}
+.instagram-widget ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+}
+.instagram-widget img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

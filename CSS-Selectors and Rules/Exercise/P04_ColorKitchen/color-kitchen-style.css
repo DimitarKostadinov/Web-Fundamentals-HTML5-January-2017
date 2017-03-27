@@ -1,0 +1,126 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Sansita';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Sansita Regular'), local('Sansita-Regular'), url(https://fonts.gstatic.com/s/sansita/v1/OIg80uztPzTvmaigz6QbovY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Sansita';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Sansita Regular'), local('Sansita-Regular'), url(https://fonts.gstatic.com/s/sansita/v1/hJSyxUQeTBqx_NJRx-g3LA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+html{
+    font-size: 20px;
+}
+body{
+    background: url("images/bg.jpg");
+    font-family: Sansita, sans-serif;
+    font-size: 20px;
+
+}
+aside{
+    background:rgba(245, 230, 254, 0.9);
+    width: 210px;
+    border-radius: 20px;
+    float: left;
+    padding-right: 5px;
+    text-align: left;
+    margin: auto;
+
+}
+body>header{
+    font-size: 2em;
+    color: #ffff73;
+    text-align: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff1a00+33,ff1a00+33,00fc08+33,00f70c+66,0077f7+66,0025fc+66 */
+    background: #ff1a00; /* Old browsers */
+    background: -moz-linear-gradient(left,  #ff1a00 33%, #ff1a00 33%, #00fc08 33%, #00f70c 66%, #0077f7 66%, #0025fc 66%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #ff1a00 33%,#ff1a00 33%,#00fc08 33%,#00f70c 66%,#0077f7 66%,#0025fc 66%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #ff1a00 33%,#ff1a00 33%,#00fc08 33%,#00f70c 66%,#0077f7 66%,#0025fc 66%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1a00', endColorstr='#0025fc',GradientType=1 ); /* IE6-9 */
+    margin-bottom: 20px;
+}
+ul li{
+    list-style: none;
+
+
+}
+ul li a{
+    text-decoration: none;
+    font-family: Sansita;
+    color: #000000;
+
+}
+ul li a::before {
+    content: url("images/a.png");
+    vertical-align: middle;
+    padding-right: 3px;
+}
+nav>header{
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+section article {
+
+    background-color: rgba(245, 230, 254, 0.9);
+    color: #000000;
+    margin-left: 250px;
+    margin-right: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+section article p:first-line {
+    font-style: italic;
+
+}
+section article p:first-letter {
+    font-size: 2em;
+}
+
+
+section article #webColors{
+    color: #ffffff;
+    background-color: #FF0000;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 1.5em;
+}
+section article #RGBA{
+    color: #ffffff;
+    background-color: #00f70c;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 1.5em;
+
+}
+header[id="#HSLHSV"]{
+    color: #ffffff;
+    background-color: #bc1cf7;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 1.5em;
+
+}
+footer a {
+    color: #68576b;
+    font-size: 0.8em;
+}
+ul li:hover:nth-child(odd)
+ {
+     background: red;
+ }
+ul li:hover:nth-child(even)
+{
+    background: green;
+}

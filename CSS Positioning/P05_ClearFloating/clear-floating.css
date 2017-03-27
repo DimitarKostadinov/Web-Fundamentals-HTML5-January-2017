@@ -1,0 +1,32 @@
+* { box-sizing: border-box; }
+
+header,footer{
+    background: #8b603d;
+    color: #ffffff;
+    padding: 15px;
+    border: 2px solid #4B4B4B;
+}
+.left-menu{width: 25%}
+.left-menu{
+    float: left;
+    padding: 15px;
+}
+.right{
+    float: right;
+    width: 75%;
+}
+.left-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;}
+
+.left-menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background:#33b5e5;
+    color: #ffffff;}
+footer {
+    display: block;
+    clear: both;}
+
+

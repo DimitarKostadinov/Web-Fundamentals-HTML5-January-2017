@@ -1,0 +1,210 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v13/eFRpvGLEW31oiexbYNx7Y_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v13/GtRkRNTnri0g82CjKnEB0Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v13/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v13/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v13/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+body{
+    font-family: "Lato", sans-serif;
+    margin: auto;
+    background-color: #2E4556;
+}
+#navtop>ul>li{
+    display: inline-block;
+    font-size:15px;
+    margin:10px;
+    text-transform: uppercase;
+}
+#navtop>ul>li>a{
+    text-decoration: none;
+    color: #597874;
+}
+#navtop>p{
+    color: #597874;
+    text-transform: uppercase;
+    float: right;
+    font-size: 15px;
+    margin:0 auto;
+    padding-right: 5px;
+
+}
+header{
+    margin: auto;
+    text-align: center;
+}
+header>h1{
+    color: #DAE2E8;
+    font-weight: 100;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 100px;
+
+}
+header>h2{
+    color: #597874;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+header>p{
+    font-size: 20px;
+    color: #DAE2E8;
+    text-align: center;
+    font-weight: 300;
+}
+.btn{
+    color: #F8F4EF;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin-top: 10px;
+    margin-bottom:50px ;
+}
+.btn:hover{
+background-color: #F8F4EF;
+    color: darkgray;
+    cursor: pointer;
+}
+main{
+    background: #ffffff;
+    border-color:#D9D9D9;
+    padding-left: 200px;
+    padding-right: 200px;
+    column-count: 3;
+}
+img{
+    width: 250px;
+    height: 180px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+section{
+    height:500px;
+    width: 250px;
+    margin: auto;
+    margin-top: 100px;
+    padding:0px;
+}
+section h1{
+    font-size: 14px;
+    color:#afb5be;
+    text-transform: uppercase;
+
+}
+section h2{
+    font-size:22px ;
+    color:#577B80;
+    font-weight: 400;
+}
+section p{
+    font-size: 14px;
+    color:#afb5be;
+}
+footer{
+    padding-top: 20px;
+
+}
+footer p{
+    float: left;
+   color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    margin: auto;
+    padding-top: 5px;
+    padding-left: 20px;
+
+}
+#navbottom ul>li{
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+
+
+
+}
+#navbottom ul>li>a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+#navbottom{
+
+    float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

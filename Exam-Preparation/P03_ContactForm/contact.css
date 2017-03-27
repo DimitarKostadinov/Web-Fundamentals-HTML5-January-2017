@@ -1,0 +1,106 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+*{box-sizing: border-box}
+body{
+    background: lightgray;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+}
+.form{
+    background: white;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+main{
+    display: flex;
+}
+.left{
+    display: inline-block;
+    width: 310px;
+    margin-left: 35px;
+    position: relative;
+}
+.right{
+    display: inline-block;
+    width: 310px;
+    margin-left: 35px;
+    position: relative;
+}
+.right .fa-phone{
+    position: absolute;
+    top: 50px;
+    right: 280px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.right .fa-comment-o{
+    position: absolute;
+    top: 130px;
+    right: 280px;
+
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 30px;
+    border: 1px solid darkgrey;
+}
+textarea{
+    width: 220px;
+    height: 100px;
+    margin-left: 30px;
+}
+.red-star{
+    color: red;
+}
+.awesome{
+    background: gray;
+    width: 50px;
+}
+.fa{
+    font-size: 20px;
+    background: lightslategrey;
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+header{
+    background: coral;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+footer{
+    padding-top: 180px;
+
+}
+button{
+    background: orangered;
+    width: 100%;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid transparent;
+    border-top: none;
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+ button:hover{
+     background: black;
+     cursor: pointer;
+ }

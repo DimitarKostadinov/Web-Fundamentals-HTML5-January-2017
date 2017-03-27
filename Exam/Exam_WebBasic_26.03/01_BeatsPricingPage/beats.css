@@ -1,0 +1,80 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v13/R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v13/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+*
+body{
+    width: 960px;
+    background: #DDDDDD;
+    margin: 0 auto;
+    font-family: 'Lato',sans-serif;
+
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+.product{
+    width: 300px;
+    height: 400px;
+    background: #ffffff;
+    margin-top: 150px;
+    border-radius: 15px;
+}
+.product img{
+    width: 130px;
+    height: 150px;
+    margin-top: 15px;
+}
+h3{
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+p{
+    padding: 5px;
+    font-size: 14px;
+}
+button{
+    border-radius: 20px;
+    padding: 10px 35px;
+    outline: none;
+    border: 2px solid black;
+    margin-top: 25px;
+}
+.bold-price{
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}

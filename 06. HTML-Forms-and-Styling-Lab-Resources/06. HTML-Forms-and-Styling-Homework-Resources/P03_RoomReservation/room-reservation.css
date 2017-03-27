@@ -1,0 +1,129 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+*{box-sizing: border-box}
+body{
+    margin-top: 0px;
+    font-size: 13px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    background: rgba(180, 180, 180, 0.49);
+    width:1200px;
+    margin: 0 auto;
+}
+.main-header{
+    background: rgba(239, 239, 239, 0.87);
+    border-bottom: 1px dashed gray ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.main-header h1{
+    color: rgba(0, 0, 255, 0.42);
+    font-family: Helvetica;
+    font-weight: 300;
+}
+h1{
+    font-size: 28px;
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+h4{
+    font-size: 16px;
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+.lorem{
+    display: inline-block;
+    border-bottom: 1px dashed lightgrey;
+    width: 1200px;
+}
+.basic-info{
+    display: inline-block;
+    width: calc(1200px - 195px);
+}
+.basic-info header{
+    font-size: 24px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.search{
+    display: inline-block;
+    width: 190px;
+    position: relative;
+}
+.search p{
+    font-size: 16px;
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+input{
+    height: 25px;
+    width: 185px;
+}
+.search::before{
+    font-family: FontAwesome,serif;
+    position: absolute;
+    font-size: 18px;
+    content: "\f002";
+    top: 67px;
+    right: 10px;
+}
+section .second{
+    display: inline-block;
+}
+.right{
+    display: inline-block;
+    width: 500px;
+    float: right;
+
+}
+.left{
+    display: inline-block;
+    width: 200px;
+
+}
+.left input{
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 2px solid gray;
+}
+.right label{
+    font-size:16px;
+    margin-bottom:10px;
+}
+.right select{
+    width: 235px;
+    margin-top: 15px;
+    height: 25px;
+}
+.right input{
+    margin-top:15px;
+    height:25px;
+}
+.right h4{
+    display:block;
+}
+.div2{
+    width: 50%;
+    float: left;
+}
+.second{
+    padding-bottom: 25px;
+    border-bottom: dashed 1px grey;
+    margin-bottom: 10px;
+}
+button{
+    display: inline;
+    float: right;
+    margin-top: 10px;
+    width: 135px;
+    padding: 10px;
+    border-radius: 5px;
+    background: cornflowerblue;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background: mediumspringgreen;
+    cursor: pointer;
+}

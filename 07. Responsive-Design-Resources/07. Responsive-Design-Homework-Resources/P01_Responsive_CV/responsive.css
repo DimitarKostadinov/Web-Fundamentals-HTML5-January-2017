@@ -1,0 +1,40 @@
+@media screen and (max-width: 740px) {
+    #wrapper{
+        padding: 20px 15px
+    }
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    #info {
+        float: none;
+        text-align: center;
+    }
+
+    #photo {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    p{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    ul li{
+        display: inline-block;
+        width: 100px;
+    }
+    #skills-right ul li:nth-of-type(2) {
+        width: 140px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    ul li{
+        padding-left: 16px;
+        background: url("img/bullet.png") -3px 5px no-repeat;
+    }
+}

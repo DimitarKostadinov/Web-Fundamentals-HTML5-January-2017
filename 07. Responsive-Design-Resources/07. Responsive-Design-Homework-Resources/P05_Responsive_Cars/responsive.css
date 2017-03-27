@@ -1,0 +1,93 @@
+@media only screen and (min-width : 465px) and (max-width : 980px){
+header{
+    width: 100%;
+}
+    nav .wrap-nav{
+        width: 100%;
+        top: 0px;
+        text-align: center;
+    }
+    header #logo{
+        padding: 28px;
+        margin: 37px auto;
+        position: initial;
+        width: 10%;
+    }
+    .zerogrid {
+        width: 100%;
+        position: initial;
+    }
+    .menu ul li {
+        display: inline-block;
+        position: initial;
+        float: none;
+    }
+    .zerogrid .col-1-4 {
+        width: 45%;
+        margin: 0 auto;
+    }
+    .zerogrid .col-1-3 {
+        width: 100%;
+    }
+    .zerogrid .col-1-4 {
+        margin-left: 13px;
+    }
+    .zerogrid .col-2-3 {
+        width: 100%;}
+    .container
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    }
+@media screen and (max-width: 465px){
+    .zerogrid .col-1-3 {
+        width: 100%;
+    }
+    .zerogrid .col-2-3 {
+        width: 100%;}
+    header #logo {
+        display: none;}
+    .menu {
+        display: none;
+    }
+    .minimenu {
+        display: block;
+    }
+    .minimenu div {
+        border-bottom: 2px solid white;
+    }
+    header{
+        width: 100%;
+    }
+    nav .wrap-nav{
+        width: 100%;
+        top: 0px;
+        text-align: center;
+    }
+    .minimenu div:last-child {
+        border-bottom: 9px solid #3F3F3F;
+
+    }
+
+    .featured .wrap-featured .slider {
+        margin-top: 65px;
+        padding: 10px;
+    }
+
+
+
+    .zerogrid {
+        width: 100%;
+    }
+
+    .zerogrid .col-1-4 {
+        width: 87%;
+    }
+
+
+
+}

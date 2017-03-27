@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+main{
+    width: 900px;
+    margin: 0 auto;
+
+    margin-top: 100px;
+    font-size: 14px;
+}
+.product-img{
+    background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
+    width: 350px;
+    height: 500px;
+    display: inline-block;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.product-img img{
+    width: 360px;
+    margin-top: 120px;
+}
+.product-form{
+    display: inline-block;
+    width: 500px;
+    margin-left: 30px;
+    vertical-align: top;
+}
+.inlined{
+    display: inline-block;
+    background: rgba(228, 228, 228, 0.48);
+    border-radius: 15px;
+    box-shadow: 10px 5px 50px rgba(152, 198, 235, 0.42);
+}
+.product-title{
+    font-family: Anton,sans-serif;
+    font-size: 40px;
+}
+.product-price{
+    font-family:Anton,sans-serif ;
+    font-size: 20px;
+    font-weight: 500;
+    color: #384452;
+}
+label , input{
+    display: block;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 15px;
+
+}
+input::-webkit-input-placeholder{
+    color:#42c9ca ;
+}
+input, select{
+outline: none;
+border: none;
+    margin-bottom: 15px;
+    width: 190px;
+    height: 30px;
+    margin-left: 10px;
+}
+input{
+    border-bottom: 3px solid #42c9ca ;
+}
+select{
+    color:#FFFFFF;
+    background: #42c9ca;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 2px;
+    text-overflow: ''
+}
+button{
+    width: 150px;
+    border-radius: 25px;
+    outline: none;
+    padding: 8px;
+    background: transparent;
+    border: 3px solid #42c9ca;
+    color: #42c9ca;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+button:hover{
+    background:#42c9ca;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
